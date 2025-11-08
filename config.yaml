@@ -1,0 +1,12 @@
+# DNS-Tunnel Konfigurationsdatei
+# -----------------------------------
+# Diese Datei enthält IP-Adressen und Ports
+# für Server und Client-Kommunikation über UDP.
+
+# Servereinstellungen
+server_ip: "127.0.0.1"        # IP-Adresse deines Servers (oder externe IP)
+server_port: 5300             # UDP-Port des Servers (DNS-typisch: 53 oder 5300)
+
+# Clienteinstellungen
+client_ip: "127.0.0.1"        # IP-Adresse deines Clients
+client_port: 5400             # UDP-Port für Clientantworten (optional)
